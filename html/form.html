@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <p>
+                <label for="">이름</label>
+                <input type="text" id="user_name">
+            </p>
+            <p>
+                <label for="">
+                    비밀번호 <input type="password">
+                </label>
+            </p>
+            <p>
+                <label for="">전화번호</label>
+                <input type="tel" name="" id="">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>라디오버튼</legend> <!--하나만선택시-->
+            <div>
+                <input type="radio" name="address"> <label for="">집</label>
+                <input type="radio" name="address"> <label for="">학교</label>
+                <input type="radio" name="address"> <label for="">회사</label>
+                <!--
+                태그에 이름을 지정 -> 클래스, 아이디, 네임//
+                -->
+            </div>
+            <p class="title">취미</p>
+            <div>
+                <label for="habbit">독서</label>
+                <input type="checkbox" name="habbit" id="habbit1">
+                <label for="habbit2">영화</label>
+                <input type="checkbox" name="habbit" id="habbit2">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>다양한버튼</legend>
+            <div>
+                <input type="reset" value="취소">
+                <input type="submit" value="확인">
+                <input type="button" value="버튼"> <!--이름을 인식할수있게 바꿔줌-->
+            </div>
+            <div>
+                <input type="text">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
